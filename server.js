@@ -1,11 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const app = require("express");
-const model = require("./models/model.js");
+const app =  express();
 
 
+const PORT = process.env.PORT || 4444
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dbExample", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
 //unwrapping client data to original format and stores in req.body
 app.use(express.urlencoded({ extended: true }));
