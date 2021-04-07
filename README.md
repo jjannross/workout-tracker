@@ -4,7 +4,9 @@ Workout-tracker is an app that allows a user to create and track daily workouts.
 This app utilizes a Mondo database with a Mongoose schema and handles routes with express. 
 
 To visit workout-tracker  [click here](https://workout-tracker-nc.herokuapp.com/)
+
 To view the repo of workout-tracker [click here](https://github.com/jjannross/workout-tracker)
+
 To watch a demonstration [click here](https://drive.google.com/file/d/10zKMrq3wujSxbSog1Z5-T91OZ4ojxc0p/view)
 
 ## Prerequisites
